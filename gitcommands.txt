@@ -1,0 +1,83 @@
+echo "# website-project-group" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vishnuanand-dev/website-project-group.git
+git push -u origin main
+
+
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~ (main)
+$ git clone https://github.com/vishnuanand-dev/website-project-group.git
+Cloning into 'website-project-group'...
+warning: You appear to have cloned an empty repository.
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~ (main)
+$ cd website-project-group
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~/website-project-group (main)
+$ ls
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~/website-project-group (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~/website-project-group (main)
+$ git branch
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~/website-project-group (main)
+$ echo "# website-project-group" >> README.md
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~/website-project-group (main)
+$ ls
+README.md
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~/website-project-group (main)
+$ vi README.md
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~/website-project-group (main)
+$ cat README.md
+# website-project-group
+This is a website project Repo
+Group 1 — Docker Dynamos
+Roll ID Student Name
+DVP11003 Kar Thik.c
+DVP11008 Jackin Abishek
+DVP11014 Vishnu Anandamoorthy
+DVP11019 Anu Priyanka
+
+$ git init
+Reinitialized existing Git repository in C:/Users/jyoth/website-project-group/.git/
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~/website-project-group (main)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~/website-project-group (main)
+$ git commit -m "Added Readme file"
+[main (root-commit) a22e26c] Added Readme file
+ 1 file changed, 8 insertions(+)
+ create mode 100644 README.md
+
+
+Jyotheesh Kumar@DESKTOP-RK8FCIR MINGW64 ~/website-project-group (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 375 bytes | 187.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/vishnuanand-dev/website-project-group.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+
+
+
